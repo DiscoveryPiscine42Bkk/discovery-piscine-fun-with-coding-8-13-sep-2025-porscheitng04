@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Select</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: url("https://s3.us-west-1.wasabisys.com/ft-backgrounds/-mreflowMatt_Wolfe_beauty_78ad1ea3-acd8-4413-8d3d-9c464d050b62.jpeg") no-repeat center center/cover;
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+    h1 {
+      margin-bottom: 40px;
+      font-size: 36px;
+    }
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+    .card {
+      padding: 12px 24px;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      background: rgba(255, 255, 255, 1);
+    }
+    .card a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Our Rush Project</h1>
+  <div class="container">
+    <div class="card"><a href="person1.html">Porsche</a></div>
+    <div class="card"><a href="person2.html">Tang</a></div>
+  </div>
+</body>
+</html>
+

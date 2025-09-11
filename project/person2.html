@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tang</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            line-height: 1.6;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        #about {
+            background: #e2f0ff;
+        }
+
+        #skills {
+            background: #d4ffd4;
+        }
+
+        #contact {
+            background: #ffe0e0;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            object-fit: cover;
+            margin: 10px 0 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .skill-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 12px;
+        }
+
+
+        .skill-item p {
+            margin: 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="content">
+            <img src="profile1.jpg" alt="Profile" class="profile-img">
+            <h2>About Me</h2>
+            <p>สวัสดีครับ ผมคือ [ชื่อคนที่ 1] ... (ใส่รายละเอียด)</p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="content">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="https://cdn0.iconfinder.com/data/icons/social-network-7/50/22-1024.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-512.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.VjxRixbZlP4MonmjOMujAAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                        alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="content">
+            <h2>Contact</h2>
+            <p>66070251@gmail.com</p>
+
+            <div class="social-icons" style="margin-top:15px;">
+                <a href="" target="_blank">
+                    <img src="https://simpleicons.org/icons/instagram.svg" alt="Instagram"
+                        style="width:40px; height:40px; margin:0 10px;">
+                </a>
+                <a href="" target="_blank">
+                    <img src="https://simpleicons.org/icons/facebook.svg" alt="Facebook"
+                        style="width:40px; height:40px; margin:0 10px;">
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
